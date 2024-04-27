@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react'
-import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import axios from './axiosConfig';
 
@@ -86,7 +85,6 @@ function App() {
         </div>
       </BrowserRouter>
     </div>
-    <Analytics />
     </>
   );
 }
