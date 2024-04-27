@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import axios from './axiosConfig';
 
@@ -56,6 +57,7 @@ function App() {
   
   return (
     <div id='body' className='w-full min-w-max text-white font-mono flex flex-col min-h-screen overflow-hidden'>
+      <Analytics />
       <BrowserRouter>
         <div className='overflow-hidden'>
           <Navbar />
