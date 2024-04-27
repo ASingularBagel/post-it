@@ -73,7 +73,7 @@ const dispatch = useDispatch<ThunkDispatch<any, any, any>>();
     <div className='grid grid-flow-row grid-rows-2 mb-4 backdrop-blur-lg w-full overflow-hidden'>
         <div className='grid grid-flow-col grid-cols-5 py-3 border-t-2 border-x-2'>
             <div className='items-center justify-center align-middle relative'>
-                <ProfileIcon imageUrl={userImage} userHandle={userHandle} iconSize={'icon-h'} property={'translate-x-1/2 h-icon-h'}/> 
+                <ProfileIcon imageUrl={userImage} userHandle={userHandle} iconSize={'icon-h'} property={'translate-x-1/2 h-icon-h w-icon-w'}/> 
             </div>
             <div className='grid row-span-3 w-max'>
                 <div className='grid grid-flow-col grid-cols-5'>

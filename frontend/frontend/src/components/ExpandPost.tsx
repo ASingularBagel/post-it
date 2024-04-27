@@ -100,7 +100,7 @@ dayjs.extend(relativeTime)
                             <div className='grid row-span-3 w-max'>
                                 <div className='grid grid-flow-col grid-cols-5'>
                                     <div className=''>
-                                        <ProfileIcon imageUrl={post?.userImage} userHandle={post?.userHandle} property={'h-icon-h'}/> 
+                                        <ProfileIcon imageUrl={post?.userImage} userHandle={post?.userHandle} property={'h-icon-h w-icon-w'}/> 
                                     </div>
                                     <div className=''>
                                         <div className=''>
@@ -117,7 +117,7 @@ dayjs.extend(relativeTime)
                             </div>
                         </div>
 
-                        <div className='pt-3 w-max flex flex-col mb-3'>
+                        <div className='pt-3 flex flex-col mb-3'>
                             <p className='flex align-middle text-2xl'>{post?.body}</p>
                         </div>
 
@@ -141,7 +141,7 @@ dayjs.extend(relativeTime)
                                             `}>
                                                 <div className='flex flex-row mt-2 px-2 py-3 h-max'>
                                                     <div className='w-max mr-4'>
-                                                        <ProfileIcon imageUrl={(comment).userImage} userHandle={(comment).userHandle} property={'h-10 translate-x-2 mr-2'}/>
+                                                        <ProfileIcon imageUrl={(comment).userImage} userHandle={(comment).userHandle} property={'h-10 w-10 translate-x-2 mr-2'}/>
                                                     </div>
                                                     <div className='text-left ml-8 h-max px-5'>
                                                         <p className='text-left'>{(comment).body}</p>
