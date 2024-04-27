@@ -43,7 +43,7 @@ const user = () => {
     <>
     { dataError && dataError.error === 'User not found.' && <NotFound /> }
     { userData && 
-    <div className='overflow-hidden border-x-2 h-max'>
+    <div className='overflow-hidden border-2 h-max'>
         <FullProfile user={userData} posts={posts} />
     </div>
     }

@@ -41,7 +41,7 @@ const FullProfile = ({user, posts} : {user : User | undefined, posts: PostType[]
         <div className='h-44 w-full'>
             <div className='flex flex-start gap-44'>
                 <div>
-                    <ProfileIcon imageUrl={user?.imageUrl} property={' h-44'}/>
+                    <ProfileIcon imageUrl={user?.imageUrl} property={' h-44 w-44 '}/>
                 </div>
                 <div className='ml-10'>
                     <div className='text-3xl font-bold'>{user?.handle}</div>
