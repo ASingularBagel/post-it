@@ -56,8 +56,8 @@ function App() {
   }, [dispatch])
   
   return (
+    <>
     <div id='body' className='w-full min-w-max text-white font-mono flex flex-col min-h-screen overflow-hidden'>
-      <Analytics />
       <BrowserRouter>
         <div className='overflow-hidden'>
           <Navbar />
@@ -86,6 +86,8 @@ function App() {
         </div>
       </BrowserRouter>
     </div>
+    <Analytics />
+    </>
   );
 }
 
